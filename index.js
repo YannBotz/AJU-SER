@@ -373,7 +373,7 @@ const checkRegisteredUser = (sender) => {
     const totalhit = JSON.parse(fs.readFileSync("./lib/totalcmd.json"))[0]
       .totalcmd;
 const daftar1 = `❑ Hi ${pushname} 🚀 ${ucapanWaktu} \n\n❑ Before Using the Bot Verify First 🙂`
-       const daftar2 = '```Click the button below to verify bro or type #verify\n𝙰𝙹𝚄 𝚂𝙸𝚁 😎```'
+       const daftar2 = '```Click the button below to verify bro or type #verify\Y𝙰nz 𝚂𝙸𝚁 😎🤙```'
        const daftar3 = [
           {
             buttonId: `verify`,
@@ -2102,7 +2102,7 @@ case 'command':
 if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quoted: fkontak})
  listMsg = {
  buttonText: '𝗟𝗜𝗦𝗧 𝗠𝗘𝗡𝗨',
- footerText: '𝙰𝙹𝚄 𝚂𝙴𝚁',
+ footerText: 'YANZ BOT',
  description: `Hi @${sender.split('@')[0]}, Please select the menu here`,
  sections: [
                      {
@@ -2170,7 +2170,7 @@ case 'group':
 if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quoted: fkontak})
  listMsgg = {
  buttonText: 'CLICK HERE',
- footerText: '𝙰𝙹𝚄 𝚂𝙴𝚁',
+ footerText: 'YANZ BOT',
  description: `OPEN OR CLOSE GROUP`,
  sections: [
                      {
@@ -2206,7 +2206,7 @@ menu = `︎𝘋𝘰𝘸𝘯𝘭𝘰𝘢𝘥𝘦𝘳 𝘔𝘦𝘯𝘶
 
 ❑${prefix}𝙩𝙬𝙞𝙩𝙩𝙚𝙧 <𝙪𝙧𝙡>
 `
-sendButMessage(from, menu, `𝙰𝙹𝚄 𝚂𝙴𝚁`, [
+sendButMessage(from, menu, `Yanz 𝚂𝙴𝚁`, [
           {
             buttonId: `command`,
             buttonText: {
@@ -2257,7 +2257,7 @@ menu = `𝘎𝘳𝘰𝘶𝘱 𝘔𝘦𝘯𝘶︎︎
 
 ❑${prefix}kickarea
 `
-sendButMessage(from, menu, ` 𝙰𝙹𝚄 𝚂𝙴𝚁`, [
+sendButMessage(from, menu, ` Y𝙰nz 𝚂𝙴𝚁🤙`, [
           {
             buttonId: `command`,
             buttonText: {
@@ -2320,7 +2320,7 @@ menu = `𝘖𝘸𝘯𝘦𝘳 𝘔𝘦𝘯𝘶
 
 ❑${prefix}colongsw [reply sw]
 `
-sendButMessage(from, menu, `𝙰𝙹𝚄 𝚂𝙴𝚁`, [
+sendButMessage(from, menu, `Y𝙰nz 𝚂𝙴𝚁🗿`, [
           {
             buttonId: `command`,
             buttonText: {
@@ -2343,7 +2343,7 @@ menu = `シ︎𝘜𝘱𝘴𝘸 𝘔𝘦𝘯𝘶シ︎
 
 ❑${prefix}upswlocation
 `
-sendButMessage(from, menu, ` yanz hex`, [
+sendButMessage(from, menu, ` Yanz Bot🗿`, [
           {
             buttonId: `command`,
             buttonText: {
@@ -2432,7 +2432,7 @@ menu = `𝘖𝘵𝘩𝘦𝘳 𝘔𝘦𝘯𝘶
 
 ❑${prefix}playstore <query>
 `
-sendButMessage(from, menu, ` yanz hex`, [
+sendButMessage(from, menu, ` Yanz Bot🗿`, [
           {
             buttonId: `command`,
             buttonText: {
@@ -2483,7 +2483,7 @@ menu = `𝘔𝘢𝘬𝘦𝘳 𝘔𝘦𝘯𝘶
 
 ❑${prefix}waifu
 `
-sendButMessage(from, menu, ` yanz hex`, [
+sendButMessage(from, menu, ` Yanz Bot🗿`, [
           {
             buttonId: `command`,
             buttonText: {
@@ -2549,7 +2549,7 @@ case 'git':
 case 'script':
 		case 'sc':
 		case 'sourcecode':
-		xeon.sendMessage(from, { text: "╭─➤ *ᴀᴊᴜ sɪʀ*\n│       ❑  *sᴄʀɪᴘᴛ*\n│❖   ɢɪᴛʜᴜʙ:\n│❖ https://github.com/yannBotz:\n|❖ Check In YouTube👇👇\n│❖   ʏᴏᴜᴛᴜʙᴇ:\n│❖   https://youtu.be/-HPoucnmGp8\n│❖   ᴡᴀᴛsᴀᴘᴘ ɢʀᴏᴜᴘ:\n╰────────────────❋ཻུ۪۪⸙\n\n⌕ ❙❘❙❙❘❙❚❙❘❙❙❚❙❘❙❘❙❚❙❘❙❙❚❙❘❙❙❘❙❚❙❘\n             ᴀᴊᴜ sɪʀ\n\n╭◪ *ᴄᴏᴅᴅᴇᴅ ʙʏ ᴀᴊᴜ*\n╰─────────────────❋ཻུ۪۪⸙", matchedText: 'nopee', description: "", title: "What are you doing?", jpegThumbnail: iye }, 'extendedTextMessage', { detectLinks: false, contextInfo: { forwardingScore: 508, isForwarded: true}, quoted: finv})
+		xeon.sendMessage(from, { text: "╭─➤ *ᴀᴊᴜ sɪʀ*\n│       ❑  *sᴄʀɪᴘᴛ*\n│❖   ɢɪᴛʜᴜʙ:\n│❖ https://github.com/yannBotz:\n│❖  Check In YouTube👇👇\n│❖   ʏᴏᴜᴛᴜʙᴇ:\n│❖   https://youtu.be/-HPoucnmGp8\n│❖   ᴡᴀᴛsᴀᴘᴘ ɢʀᴏᴜᴘ:\n https://chat.whatsapp.com/KghOSWVL9aMDc4ZzCgOSoX:\n│❖ ╰────────────────❋ཻུ۪۪⸙\n\n⌕ ❙❘❙❙❘❙❚❙❘❙❙❚❙❘❙❘❙❚❙❘❙❙❚❙❘❙❙❘❙❚❙❘\n             Yᴀnz sɪʀ\n\n╭◪ *ᴄᴏᴅᴅᴇᴅ ʙʏ ᴀᴊᴜ*\n╰─────────────────❋ཻུ۪۪⸙", matchedText: 'nopee', description: "", title: "What are you doing?", jpegThumbnail: iye }, 'extendedTextMessage', { detectLinks: false, contextInfo: { forwardingScore: 508, isForwarded: true}, quoted: finv})
 		break
       //------------------< Sticker Cmd >-------------------
       case "addcmd":
