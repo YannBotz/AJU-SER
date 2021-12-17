@@ -2549,7 +2549,7 @@ case 'git':
 case 'script':
 		case 'sc':
 		case 'sourcecode':
-		xeon.sendMessage(from, { text: "╭─➤ *ᴀᴊᴜ sɪʀ*\n│       ❑  *sᴄʀɪᴘᴛ*\n│❖   ɢɪᴛʜᴜʙ:\n│❖ https://github.com/yannBotz\n│❖  Check In YouTube👇👇\n│❖   ʏᴏᴜᴛᴜʙᴇ:\n│❖   https://youtu.be/-HPoucnmGp8\n│❖   ᴡᴀᴛsᴀᴘᴘ ɢʀᴏᴜᴘ:\n https://chat.whatsapp.com/KghOSWVL9aMDc4ZzCgOSoX:\n❖ ╰────────────────❋ཻུ۪۪⸙\n\n⌕ ❙❘❙❙❘❙❚❙❘❙❙❚❙❘❙❘❙❚❙❘❙❙❚❙❘❙❙❘❙❚❙❘\n             Yᴀnz sɪʀ\n\n╭◪ *ᴄᴏᴅᴅᴇᴅ ʙʏ ᴀᴊᴜ*\n╰─────────────────❋ཻུ۪۪⸙", matchedText: 'nopee', description: "", title: "What are you doing?", jpegThumbnail: iye }, 'extendedTextMessage', { detectLinks: false, contextInfo: { forwardingScore: 508, isForwarded: true}, quoted: finv})
+		xeon.sendMessage(from, { text: "╭─➤ *ᴀᴊᴜ sɪʀ*\n│       ❑  *sᴄʀɪᴘᴛ*\n│❖   ɢɪᴛʜᴜʙ:\n│❖ https://github.com/yannBotz\n│❖  Check In YouTube👇👇\n│❖   ʏᴏᴜᴛᴜʙᴇ:\n│❖   https://youtu.be/-HPoucnmGp8\n│❖   ᴡᴀᴛsᴀᴘᴘ ɢʀᴏᴜᴘ:\n https://chat.whatsapp.com/KghOSWVL9aMDc4ZzCgOSoX\n❖ ╰────────────────❋ཻུ۪۪⸙\n\n⌕ ❙❘❙❙❘❙❚❙❘❙❙❚❙❘❙❘❙❚❙❘❙❙❚❙❘❙❙❘❙❚❙❘\n             Yᴀnz sɪʀ\n\n╭◪ *ᴄᴏᴅᴅᴇᴅ ʙʏ ᴀᴊᴜ*\n╰─────────────────❋ཻུ۪۪⸙", matchedText: 'nopee', description: "", title: "What are you doing?", jpegThumbnail: iye }, 'extendedTextMessage', { detectLinks: false, contextInfo: { forwardingScore: 508, isForwarded: true}, quoted: finv})
 		break
       //------------------< Sticker Cmd >-------------------
       case "addcmd":
@@ -2979,6 +2979,7 @@ if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quo
             "./database/antilink.json",
             JSON.stringify(antilink)
           );
+          reply("successfuly on antilink!!");
           reply("Successfully turn off antilink!");
         } else if (!q) {
           sendButMessage(from, `MODE ANTILINK`, `Please choose one`, [
@@ -3016,6 +3017,7 @@ if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quo
             "./database/antihidetag.json",
             JSON.stringify(antihidetg)
           );
+          reply("successfully on antihidetag!");
           reply("Successfully turn off antihidetag!");
         } else if (!q) {
           sendButMessage(
@@ -3052,6 +3054,7 @@ if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quo
         } else if (args[0] == "off") {
           antivo.splice(from, 1);
           fs.writeFileSync("./database/antivo.json", JSON.stringify(antivo));
+          reply("succesfully on antiviewonce!");
           reply("Successfully turn off antiviewonce!");
         } else if (!q) {
           sendButMessage(
@@ -3198,6 +3201,7 @@ break
         } else if (args[0] == "off") {
           antivirtex.splice(from, 1);
           fs.writeFileSync("./database/antivirtex.json", JSON.stringify(ant));
+          reply("Successfully on mode antivirtex!");
           reply("Successfully turned off antivirtex!");
         } else if (!q) {
           sendButMessage(from, `MODE ANTIVIRTEX`, `Please choose one`, [
