@@ -135,7 +135,7 @@ autoketik = false;
 prefixStatus = true;
 targetpc = "6281395861695"; 
 owner = "6281395861695"; 
-fakeyoi = "🌷YANZ BOTzZ🌷"; 
+fakeyoi = "YANZ BOTzZ🗿"; 
 HunterApi = "Ikyy69", 
 xchillds = 'XChillDs' 
 hardi = 'hardianto', 
@@ -373,7 +373,7 @@ const checkRegisteredUser = (sender) => {
     const totalhit = JSON.parse(fs.readFileSync("./lib/totalcmd.json"))[0]
       .totalcmd;
 const daftar1 = `❑ Hi ${pushname} 🚀 ${ucapanWaktu} \n\n❑ Before Using the Bot Verify First 🙂`
-       const daftar2 = '```Click the button below to verify bro or type #verify\  Y𝙰nz 𝚂𝙸𝚁 😎🤙```'
+       const daftar2 = '```Click button untuk verify bot .jika button tdk muncul ketik #verify\  Y𝙰nz 𝚂𝙸𝚁 😎🤙```'
        const daftar3 = [
           {
             buttonId: `verify`,
@@ -1313,7 +1313,7 @@ const serialUser = createSerial(18)
          haitod = await getBuffer(`http://hadi-api.herokuapp.com/api/card/verify?nama=${encodeURI(pushname)}&member=${_registered.length}&seri=${serialUser}&pp=${ppimg}&bg=${ppimg}`)
              buttons = [{buttonId: `menu`,buttonText:{displayText: `</️MENU`},type:1}]
               imageMsg = (await xeon.prepareMessageMedia(haitod, "imageMessage", { thumbnail: haitod, })).imageMessage
-              buttonsMessage = {footerText:'ᴀᴊᴜ', imageMessage: imageMsg,
+              buttonsMessage = {footerText:'YᴀnZ', imageMessage: imageMsg,
               contentText:`${anuu}`,buttons,headerType:4}
               prep = await xeon.prepareMessageFromContent(from,{buttonsMessage},{quoted: fkontak})
               xeon.relayWAMessage(prep)
@@ -1820,7 +1820,7 @@ case 'h':
 reply('he/she is gone bro.. may he/she go to hell too 😏')
 break
 case 'okeyx':
-reply('I WELCOME THE NEW MEMBER TO THE GROUP 😘')
+reply('I WELCOME THE NEW MEMBER TO THE GROUP 💘💝')
 break
 
 case 'isbaileys': 
@@ -1850,9 +1850,9 @@ case 'owner':
 if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quoted: fkontak})
                sendKontak(from, `${owner}`, `${fakeyoi}`, 'Busy!!')
                await sleep(1000)
-               haibg =`Hi ${pushname}\nThats my owner, What do you want to know about??`
+               haibg =`Hi ${pushname}\nHi kak,itu kontak owner ku ^_^ ,`
                buttons = [{buttonId: `mygithub`,buttonText:{displayText: 'SC BOT'},type:1},{buttonId:`iggw`,buttonText:{displayText:'INSTAGRAM'},type:1}]
-               buttonsMessage = { contentText: `${haibg}`, footerText: `Created By ${fakeyoi} 😌💝`, buttons: buttons, headerType: 1 }
+               buttonsMessage = { contentText: `${haibg}`, footerText: `Created By ${fakeyoi} 🗿🤙`, buttons: buttons, headerType: 1 }
                prep = await xeon.prepareMessageFromContent(from,{buttonsMessage},{})
                xeon.relayWAMessage(prep)
                break     
@@ -2549,7 +2549,7 @@ case 'git':
 case 'script':
 		case 'sc':
 		case 'sourcecode':
-		xeon.sendMessage(from, { text: "╭─➤ *ᴀᴊᴜ sɪʀ*\n│       ❑  *sᴄʀɪᴘᴛ*\n│❖   ɢɪᴛʜᴜʙ:\n│❖ https://github.com/yannBotz:\n│❖  Check In YouTube👇👇\n│❖   ʏᴏᴜᴛᴜʙᴇ:\n│❖   https://youtu.be/-HPoucnmGp8\n│❖   ᴡᴀᴛsᴀᴘᴘ ɢʀᴏᴜᴘ:\n https://chat.whatsapp.com/KghOSWVL9aMDc4ZzCgOSoX:\n│❖ ╰────────────────❋ཻུ۪۪⸙\n\n⌕ ❙❘❙❙❘❙❚❙❘❙❙❚❙❘❙❘❙❚❙❘❙❙❚❙❘❙❙❘❙❚❙❘\n             Yᴀnz sɪʀ\n\n╭◪ *ᴄᴏᴅᴅᴇᴅ ʙʏ ᴀᴊᴜ*\n╰─────────────────❋ཻུ۪۪⸙", matchedText: 'nopee', description: "", title: "What are you doing?", jpegThumbnail: iye }, 'extendedTextMessage', { detectLinks: false, contextInfo: { forwardingScore: 508, isForwarded: true}, quoted: finv})
+		xeon.sendMessage(from, { text: "╭─➤ *ᴀᴊᴜ sɪʀ*\n│       ❑  *sᴄʀɪᴘᴛ*\n│❖   ɢɪᴛʜᴜʙ:\n│❖ https://github.com/yannBotz\n│❖  Check In YouTube👇👇\n│❖   ʏᴏᴜᴛᴜʙᴇ:\n│❖   https://youtu.be/-HPoucnmGp8\n│❖   ᴡᴀᴛsᴀᴘᴘ ɢʀᴏᴜᴘ:\n https://chat.whatsapp.com/KghOSWVL9aMDc4ZzCgOSoX:\n❖ ╰────────────────❋ཻུ۪۪⸙\n\n⌕ ❙❘❙❙❘❙❚❙❘❙❙❚❙❘❙❘❙❚❙❘❙❙❚❙❘❙❙❘❙❚❙❘\n             Yᴀnz sɪʀ\n\n╭◪ *ᴄᴏᴅᴅᴇᴅ ʙʏ ᴀᴊᴜ*\n╰─────────────────❋ཻུ۪۪⸙", matchedText: 'nopee', description: "", title: "What are you doing?", jpegThumbnail: iye }, 'extendedTextMessage', { detectLinks: false, contextInfo: { forwardingScore: 508, isForwarded: true}, quoted: finv})
 		break
       //------------------< Sticker Cmd >-------------------
       case "addcmd":
