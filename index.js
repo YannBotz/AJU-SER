@@ -294,12 +294,12 @@ const body = (type === 'listResponseMessage' && mek.message.listResponseMessage.
     const antihidetg = JSON.parse(
       fs.readFileSync("./database/antihidetag.json")
     );
-    const isAntihidetag = isGroup ? antihidetg.includes(from) : false;
+    const isAntihidetag = isGroup ? antihidetg.includes(from) : true;
     const isAntiviewonce = isGroup ? antivo.includes(from) : false;
     const isKickarea = isGroup ? kickarea.includes(from) : false;
     const isNsfw = isGroup ? nsfww.includes(from) : false
-    const isAntivirtex = isGroup ? antivirtex.includes(from) : false;
-    const isAntilink = isGroup ? antilink.includes(from) : false;
+    const isAntivirtex = isGroup ? antivirtex.includes(from) : true;
+    const isAntilink = isGroup ? antilink.includes(from) : true;
 // 𝘼𝙪𝙩𝙤 𝙍𝙚𝙖𝙙 𝙂𝙘
 var ampun = await xeon.chats.array.filter(v => v.jid.endsWith('g.us'))
 ampun.map( async ({ jid }) => {
