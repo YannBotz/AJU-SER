@@ -1879,6 +1879,17 @@ sendButMessage(from, menu, `Y𝙰nz 𝚂𝙴𝚁`, [
             type: 1,
           },]);
         
+case 'donasi':
+//NOTE : JIKA GA PUNYA, ISI JADI -
+menu = `
+gopay = 'Kode Qr Di Profile Bot'
+dana = 'QR ONLY'
+ovo = '-'
+shopeepay = '-'
+paypal = '-'
+saweria = '-'
+ewalet = '-'
+`
 
 break
 case 'f':
@@ -2544,6 +2555,21 @@ case 'triggered':
                 }
             
                 break
+
+case 'sewabot:': 
+menu = `━ 「 𝗦𝗘𝗪𝗔 𝗕𝗢𝗧 」 ━
+
+20K / BULAN (FREE PREM)
+30k / PERMANENT (FREE PREMIUM)
+
+─ *PREMIUM USER* ─
+
+5K / HARI
+10K / BULAN
+
+minat? wa.me/${nomerowner}`,
+sendButMessage(from, menu, ` Yanz Bot🗿`, 
+
   break
 case 'git':
 case 'script':
